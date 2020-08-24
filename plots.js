@@ -59,6 +59,7 @@ function buildCharts(sample) {
         }];
         var layoutBar = {
             title: "Top 10 OTUs",
+            paper_bgcolor: '#f6f6f6'
         };
 
         console.log(otuIds);
@@ -75,7 +76,8 @@ function buildCharts(sample) {
             labels: otuLabels        
         }];
         var layoutBubble = {
-            xaxis: {title: "OTU ID"}
+            xaxis: {title: "OTU ID"},
+            paper_bgcolor: '#f6f6f6'
         };
 
         // Build and set parameters for gauge
